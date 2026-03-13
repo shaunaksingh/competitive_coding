@@ -1,0 +1,98 @@
+mylist=[['inaas','saara'],['85.56'],[440022, "yyy"]]
+print("multidimensional list: ")
+print(mylist)
+#print(mylist[row][col])
+print(mylist[0][0])
+print(mylist[0][1])
+print(mylist[1][0])
+print(mylist[2][0])
+
+mylist=["inaas","saara","sayali","siddhant", "Viraj", 77, "daphne", 60.52, "lara"]
+mylist.insert(1,"kavinsky")
+print(mylist)
+mylist.remove("siddhant")
+print(mylist)
+newlist=mylist.copy()
+print(mylist)
+print(newlist)
+
+mylist=["inaas","saara","sayali","siddhant", "Viraj", 77, "daphne", 60.52, "lara"]
+print(mylist)
+print(type(mylist))
+print(mylist[0])
+print(mylist[1])
+print(mylist[2])
+print(mylist[-1])
+print(mylist[2:5])
+print(mylist[:5])
+print(mylist[1:])
+
+
+list2=[50,25,50,'inaas']
+del list2[2]
+print(list2)
+
+list3=[50,25,50,'saara']
+list3.clear()
+print(list3)
+
+name="inaas"
+print(name)
+myname=list(name)
+print(myname)
+
+mylist=[44,22,33,55,66,77]
+mylist.sort()
+print(mylist)
+
+mylist=[44,22,33,55,66,77]
+mylist.sort(reverse=True)
+print(mylist)
+
+math=10
+print(id(math))
+
+name="inaas"
+print("2" in name)
+print("2" not in name)
+
+for i in range(2,6):
+    print(i)
+
+for i in range(1,10,2):
+    print(i)
+
+for i in range(5,0,-1):
+    print(i*2)
+
+for i in range(1,11):
+    print(i*2," ",i*3)
+
+#WAP to accept days and check if its working or weekend
+
+day = input("Enter a day: ").lower()
+
+if day == "saturday" or day == "sunday":
+    print("It is a Weekend")
+else:
+    print("It is a Working Day")
+
+#WAP to accept three paper marks and calculate total, percentage and if percentage is greater than 60 then he/she is eligible for placement
+
+# Accept marks of three papers
+m1 = int(input("Enter marks of Paper 1: "))
+m2 = int(input("Enter marks of Paper 2: "))
+m3 = int(input("Enter marks of Paper 3: "))
+
+total = m1 + m2 + m3
+
+percentage = total / 3
+
+print("Total Marks =", total)
+print("Percentage =", percentage)
+
+if percentage > 60:
+    print("Eligible for Placement")
+else:
+    print("Not Eligible for Placement")
+#WAP to accept five different value in 5 different var and ckeck max value and print by using simple if statement
