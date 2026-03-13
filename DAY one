@@ -7,7 +7,7 @@ print(mylist[0][1])
 print(mylist[1][0])
 print(mylist[2][0])
 
-mylist=["inaas","saara","sayali","siddhant", "Viraj", 77, "daphne", 60.52, "lara"]
+mylist=["shaunak","moin","sayali","siddhant", "Viraj", 77, "daphne", 60.52, "lara"]
 mylist.insert(1,"kavinsky")
 print(mylist)
 mylist.remove("siddhant")
@@ -16,7 +16,7 @@ newlist=mylist.copy()
 print(mylist)
 print(newlist)
 
-mylist=["inaas","saara","sayali","siddhant", "Viraj", 77, "daphne", 60.52, "lara"]
+mylist=["shaunak","moin","sayali","siddhant", "Viraj", 77, "daphne", 60.52, "lara"]
 print(mylist)
 print(type(mylist))
 print(mylist[0])
@@ -28,15 +28,15 @@ print(mylist[:5])
 print(mylist[1:])
 
 
-list2=[50,25,50,'inaas']
+list2=[50,25,50,'shaunak']
 del list2[2]
 print(list2)
 
-list3=[50,25,50,'saara']
+list3=[50,25,50,'moin']
 list3.clear()
 print(list3)
 
-name="inaas"
+name="shaunak"
 print(name)
 myname=list(name)
 print(myname)
@@ -52,7 +52,7 @@ print(mylist)
 math=10
 print(id(math))
 
-name="inaas"
+name="shaunak"
 print("2" in name)
 print("2" not in name)
 
