@@ -1,4 +1,4 @@
-mylist=[['inaas','saara'],['85.56'],[440022, "yyy"]]
+mylist=[['shaunak','moin'],['85.56'],[440022, "yyy"]]
 print("multidimensional list: ")
 print(mylist)
 #print(mylist[row][col])
